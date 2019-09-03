@@ -12,6 +12,7 @@ public class Mainleihuo {
 		m.inc(i);
 		i = i++;
 		System.out.println(i);
+		//for test
 	}
 	
 	void inc(int i) {
