@@ -14,8 +14,10 @@ public class Fibonacci {
 		}else if(n==1){
 			return 1;
 		}else{
-			return Fibonacci(n-2)+
-					Fibonacci(n-1);
-		}   
+			return Fibonacci(n-2)+Fibonacci(n-1);
+			
+		}
+        
     }
+
 }

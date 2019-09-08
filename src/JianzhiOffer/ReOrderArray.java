@@ -1,8 +1,5 @@
 package JianzhiOffer;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ReOrderArray {
 
 	public static void main(String[] args) {
@@ -13,7 +10,7 @@ public class ReOrderArray {
 		}
 	}
     public static void reOrderArray(int[] array) {
-        //解法一：需要导包，代码不通过
+        //1.瀵煎寘
 		/*List list1 = new ArrayList<>();
         List list2 = new ArrayList<>();
         for(int i=0;i<array.length;i++){
@@ -30,7 +27,7 @@ public class ReOrderArray {
     	    array[i1] = (int) list1.get(i1);
     	}*/
     
-    	//解法2：辅助数组
+    	//2.杈呭姪鏁扮粍
     	/*int[] newarr =new int[array.length];
     	int oddnum=0,begin=0;
     	for(int i=0;i<array.length;i++){
@@ -48,7 +45,7 @@ public class ReOrderArray {
     		array[i] = newarr[i];
     	}*/
     	
-    	//解法3：类似于排序的思想
+    	//绫讳技鍐掓场
     	for(int i = 0;i<array.length;i++){
 	    	for(int j = 0;j<array.length-1-i;j++){
 	    		if(array[j]%2==0&&array[j+1]%2==1){

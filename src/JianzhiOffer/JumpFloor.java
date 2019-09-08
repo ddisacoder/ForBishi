@@ -10,7 +10,7 @@ public class JumpFloor {
 	
 	public static int JumpFloor(int target) {
 		if(target==0){
-			throw new RuntimeException("ÇëÖØĞÂÊäÈë");
+			throw new RuntimeException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else if(target==1){
 			return 1;
 		}else if(target==2){
@@ -19,11 +19,11 @@ public class JumpFloor {
 			return JumpFloor(target-1)+JumpFloor(target-2);
 		}
     }
-//	Ò»Ö»ÇàÍÜÒ»´Î¿ÉÒÔÌøÉÏ1¼¶Ì¨½×£¬Ò²¿ÉÒÔÌøÉÏ2¼¶¡­¡­
-//	ËüÒ²¿ÉÒÔÌøÉÏn¼¶¡£Çó¸ÃÇàÍÜÌøÉÏÒ»¸ön¼¶µÄÌ¨½××Ü¹²ÓĞ¶àÉÙÖÖÌø·¨¡£
+//	ä¸€åªé’è›™ä¸€æ¬¡å¯ä»¥è·³ä¸Š1çº§å°é˜¶ï¼Œä¹Ÿå¯ä»¥è·³ä¸Š2çº§â€¦â€¦
+//	å®ƒä¹Ÿå¯ä»¥è·³ä¸Šnçº§ã€‚æ±‚è¯¥é’è›™è·³ä¸Šä¸€ä¸ªnçº§çš„å°é˜¶æ€»å…±æœ‰å¤šå°‘ç§è·³æ³•ã€‚
 	public static int JumpFloorII(int target){
 		if(target==0){
-			throw new RuntimeException("ÇëÖØĞÂÊäÈë");
+			throw new RuntimeException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else if(target==1){
 			return 1;
 		}else{

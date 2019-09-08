@@ -47,7 +47,7 @@ public class StrToInt_Class {
 			int num = 0;
 			if(c[0]=='+'){
 				for(int i = 1;i<c.length;i++){
-					//½«×Ö·û×ª»»Îª×Ö·û´®£¬ÔÙ½«×Ö·û´®×ª»»Îªint.
+					//å°†å­—ç¬¦è½¬æ¢ä¸ºå­—ç¬¦ä¸²ï¼Œå†å°†å­—ç¬¦ä¸²è½¬æ¢ä¸ºint.
 					String tempp = String.valueOf(c[i]);
 					int temp = Integer.parseInt(tempp);
 					num+=temp*(Math.pow(10, c.length-i-1));

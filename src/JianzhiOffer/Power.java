@@ -9,7 +9,7 @@ public class Power {
 		
 	}
 	public static double Power(double base, int exponent) {
-        //±ø∞Ï∑®£∫¿€≥À
+      
 		double result = 1;
 		for(int i=0;i<Math.abs(exponent);i++){
 			result *= base;
