@@ -22,5 +22,47 @@ public class Mainb{
             String val=kv[1];
             System.out.println(key+" "+val);
         }
+
+        /*
+        #include <iostream>
+#include <vector>
+#include <sstream>
+#include <string>
+#include <algorithm>
+#include <unordered_map>
+
+using namespace std;
+int main()
+{
+	string str;
+	string strpair;
+	string strvalue;
+	vector<string>arr;
+
+	cin >> strpair;
+	cin >> strvalue;
+	cin >> str;
+
+
+	stringstream in1(str);
+	string s;
+	vector<string> v;
+	while (getline(in1, s, strpair[0]))
+		v.push_back(s);
+	cout << v.size() << endl;
+	for (int i = 0; i < v.size(); ++i)
+	{
+		s = v[i];
+		for (int j = 0; j < s.size(); ++j)
+		{
+			if (s[j] == strvalue[0])
+				cout << ' ';
+			else
+				cout << s[j];
+		}
+		cout << endl;
+	}
+}
+         */
     }
 }
