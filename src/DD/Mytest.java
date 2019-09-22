@@ -41,3 +41,27 @@ int main() {
 	return 0;
 }
  */
+
+/*
+int solution(int a[], int n) {
+	sort(a, a + n);
+	int res = accumulate(a, a + n, 0);
+	if (n & 1) {
+		int change = 0;
+		int sum = 0;
+		for (int i = 1; i < n; i += 2, change++) {
+			sum += a[i + (change % 2)];
+		}
+		return abs(a[0] - abs(res - a[0] - sum - sum));
+	}
+	else {
+		int change = 0;
+		int sum = 0;
+		for (int i = 0; i < n; i += 2, change++) {
+			sum += a[i + (change % 2)];
+		}
+		return abs(res - sum - sum);
+	}
+	return -1;
+}
+ */
