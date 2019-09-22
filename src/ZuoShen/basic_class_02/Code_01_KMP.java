@@ -50,7 +50,7 @@ public class Code_01_KMP {
 
 	public static void main(String[] args) {
 		String str = "abcabcababaccc";
-		String match = "ababa";
+		String match = "ababacc";
 		System.out.println(getIndexOf(str, match));
 		char[] a = new String("ababcabaa").toCharArray();
 	}
