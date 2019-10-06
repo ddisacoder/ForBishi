@@ -35,6 +35,7 @@ public class InversePairs {
             else
                 copy[locCopy--] = array[j--];
         }
+        //i>=low&&j>mid不同时满足了
         for(;i>=low;i--)
             copy[locCopy--]=array[i];
         for(;j>mid;j--)
